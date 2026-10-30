@@ -1,7 +1,7 @@
 // Sceglie la lingua da ?lang=, poi dalla lingua del browser; inglese se non è supportata.
 // Nessun cookie né localStorage: il sito non salva nulla sul dispositivo di chi lo visita.
 (function () {
-  var supported = ["en", "it", "fr"];
+  var supported = ["en", "it", "fr", "es", "pt"];
   var root = document.documentElement;
   root.classList.add("js");
 
